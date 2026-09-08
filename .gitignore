@@ -1,0 +1,35 @@
+# Environment variables & secrets
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+DineMate/
+venv/
+.venv/
+env/
+ENV/
+
+# Bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Databases & runtime data
+*.db
+*.sqlite3
+database/*.db
+
+# Logs
+logs/
+*.log
+
+# Streamlit secrets & state
+.streamlit/secrets.toml
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
