@@ -1,0 +1,34 @@
+# Version control
+.git/
+.gitignore
+
+# Virtual environments
+DineMate/
+venv/
+.venv/
+env/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Secrets & Environment variables
+.env
+.env.*
+
+# Local data & logs
+logs/
+*.log
+scratch/
+app/wav_files/
+*.wav
+*.mp3
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
