@@ -1,35 +1,51 @@
-# Environment variables & secrets
-.env
-.env.*
-!.env.example
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
 
-# Virtual environments
+# Virtual Environments
 DineMate/
 venv/
 .venv/
 env/
 ENV/
+env.bak/
+venv.bak/
 
-# Bytecode & cache
-__pycache__/
-*.py[cod]
-*$py.class
-.pytest_cache/
+# Environment Variables & API Secrets
+.env
+.env.*
+!.env.example
 
-# Databases & runtime data
+# Temporary Audio Files (Speech-to-Text & Text-to-Speech)
+app/wav_files/
+*.wav
+*.mp3
+*.ogg
+
+# Local Databases & State
 *.db
 *.sqlite3
 database/*.db
 
-# Logs
+# Application Logs
 logs/
 *.log
 
-# Streamlit secrets & state
+# Scratch & Debugging
+scratch/
+
+# Streamlit Local Cache & Secrets
 .streamlit/secrets.toml
 
-# IDE & OS files
+# IDEs & Editor Configuration
 .vscode/
 .idea/
+*.swp
+*.swo
 .DS_Store
 Thumbs.db
