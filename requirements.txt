@@ -16,3 +16,13 @@ langchain-openai
 langchain-community
 langchain-core
 python-multipart
+pymysql
+aiomysql
+cryptography
+sounddevice
+pyttsx3
+pydub
+redis
+sentence-transformers
+razorpay
+twilio
